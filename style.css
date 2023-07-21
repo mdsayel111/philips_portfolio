@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+*::selection{
+    background-color: #8293FF;
+}
+* p{
+    color:#777;
+}
+
+/*============head section start==============*/
+
+.menu-bar> ul >li{
+    
+    float: left;
+    padding: 0px 15px;
+    margin-top: 33px;
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu-bar> ul{
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: -5px;  
+    margin-right: 104px;
+}
+.logo{
+    margin-left: 104px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+    height: 60px;
+    
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+.menu-bar> ul> li a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+.menu-bar ul li a:hover{
+    color: #9490FF
+}
+.menu-bar .main-menu .sub-menu li{
+    float: none;
+}
+.menu-bar .main-menu .sub-menu{
+    position: absolute;
+    margin-top: 6px;
+    list-style:none ;
+    top: -80px;
+    
+}
+
+.menu-bar .main-menu .sub-menu li{
+    padding: 5px 0px;
+}
+.menu-bar .main-menu .sub-menu-2{
+    position: absolute;
+    margin-top: 6px;
+    list-style:none ;
+    top: -80px;
+    
+}
+.menu-bar .main-menu .sub-menu-2 li{
+    padding: 5px 0px;
+}
+.menu-bar .main-menu .h1:hover .sub-menu{
+    top: 47px;
+}
+.menu-bar .main-menu .h2:hover .sub-menu-2{
+    top: 47px;
+}
+/*=========head section end============*/
+
+
+/*=========b1 section start============*/
+
+.b1{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.b11{
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+}
+.b12{
+    width: 50%;
+    overflow: hidden;
+   
+}
+.b11 p{
+    font-size: 13px;
+    font-weight: 0px;
+    margin-bottom: 20px;
+}
+.b11 h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.b11 input{
+    height: 45px;
+    width: 170px;
+    background-image: linear-gradient(to right,#8293FF,#64BAFC);
+    border: 0px;
+    color: white;
+}
+
+
+/*=========b1 section end==============*/
+
+/*=========b2 section start==============*/
+.b2{
+    overflow: hidden;
+    margin: 0px 55px;
+}
+.b21{
+    width: 50%;
+    float: left;
+    margin-top: 72px;
+}
+.b22{
+    width:50%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.b22 h1{
+    margin: 57px 0px;
+}
+.b22 p{
+    margin-bottom: 68px;
+    color: #777;
+}
+.b22 a{
+    background-image: linear-gradient(to right,#8193FE,#64BAFC);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+}
+/*=========b2 section end==============*/
+
+
+/*==========b3 section start=============*/
+.b3{
+    text-align: center;
+    margin:0px 235px;
+    overflow: hidden;
+}
+.b3 h1{
+    margin: 30px 0px;
+
+}
+
+/*=========b3 section end==============*/
+
+
+/*=========b4 section end==============*/
+.b4{
+    margin-top: 80px;
+}
+.b4 div div:hover{
+    background-color: #9490FF;
+}
+.b41,
+.b42{
+    overflow: hidden;
+    margin: 0px 135px;
+}
+.c{
+    float: left;
+    width: 33%;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.c i{
+    font-size: 30px;
+    margin: 13px 0px ;
+    margin-left: 130px;
+}
+.c h4,
+.c p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.b42{
+
+}
+/*=========b4 section end==============*/
+
+
+/*=========b5 section start==============*/
+.b5{
+    height: 200px;
+    background-color: #9490FF;
+    margin-top: 30px;
+    color: white;
+}
+.b5 p{
+    color: white;
+}
+.b5 div{
+    float: left;
+    padding: 89px;
+    padding-top: 75px;
+}
+.b6 h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.b6 p{
+    text-align: center;
+    margin-top: 20px;
+}
+/*=========b5 section end==============*/
+.b6-5 ul{
+    list-style: none;
+    margin: 70px 0;
+    margin-left: 480px;
+    
+}
+.b6-5 ul li{
+    float:left;
+    padding: 20px;
+    font-size: 11px;
+
+}
+.b6-5{
+    text-align: center;
+    height:115px;
+    
+}
+.b6-5 ul li:hover{
+    color: #9490FF;
+}
+/*=========b7 section start==============*/
+.b7{
+    overflow: hidden;
+}
+.b71{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
+}
+.b72{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+/*=========b7 section end==============*/
